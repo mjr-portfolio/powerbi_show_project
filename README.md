@@ -9,7 +9,7 @@
 
 This project showcases a Power BI dashboard built to analyse employee attrition trends across departments, roles, education levels, and demographics. The dashboard provides HR stakeholders with a clear view of where and why employee turnover is occurring.
 
-The dataset was pre-cleaned and structured, allowing the focus to remain on building dynamic, interactive visuals using relationships and slicers in Power BI.
+The dataset was pre-cleaned and structured, allowing the focus to remain on building dynamic, interactive visuals using relationships and slicers in Power BI. The dataset is based on a synthetic HR attrition dataset commonly used in public-facing tutorials. It simulates employee demographic and job-related attributes, enabling visual exploration without needing real personal data.
 
 ---
 
@@ -33,6 +33,7 @@ The dashboard includes:
   - Attrition by **Education**, **Salary Band**, and **Job Role**
   - Attrition by **Years at Company**
 - Matrix table showing attrition counts by **Job Role and Performance Rating**
+- No complex DAX was required — this dashboard is focused on layout, filtering logic, and executive-ready readability
 
 ### 📸 Dashboard Overview
 ![Power BI Dashboard](images/powerbi-hr-dashboard.png)
